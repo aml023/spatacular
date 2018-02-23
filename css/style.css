@@ -2,6 +2,7 @@
 body{
     text-align: center;
     color: #543D32;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .navbar{
@@ -32,4 +33,35 @@ nav a{
     font-size:2.5rem;
     padding-top:0.5rem; 
 
+}
+
+.navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=543D32');
+}
+
+.navbar-toggler{
+    position:fixed;
+    right: 1rem;
+    top:1.5rem;
+}
+
+
+footer .content{
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 414px) {
+    /* Styles */
+
+    footer .content{
+        padding:1rem 5rem;
+    }
+
+    .navbar-brand{
+        font-size:2rem;
+        margin-left: 1rem;
+    }
+    
 }

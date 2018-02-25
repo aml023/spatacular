@@ -5,6 +5,43 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+.category {
+    border-radius: 20px;
+}
+
+.category:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+#content-desktop {
+    display: inline;
+}
+
+#content-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 810px){
+    #content-desktop {
+        display: none;
+    }
+
+    #content-mobile {
+        display: inline;
+    }
+}
+
 .navbar{
     line-height: 4rem;
 }

@@ -10,9 +10,7 @@ body{
 }
 
 .category:hover {
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 0 10px #ccc;
+    
 }
 
 .centered {
@@ -20,8 +18,9 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #000000;
+    color: #FFFFFF;
     font-size: 1.5rem;
+    text-shadow: .5px .5px;
 }
 
 #content-desktop {
@@ -30,6 +29,10 @@ body{
 
 #content-mobile {
     display: none;
+}
+
+.image-text:hover {
+    opacity: 0.5;
 }
 
 @media only screen and (max-width: 810px){

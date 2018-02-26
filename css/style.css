@@ -109,3 +109,17 @@ footer .content{
     }
     
 }
+
+.text-in-box {
+    background-color: #EBEBEB;
+    color: #fff; 
+    display: inline;
+    padding: 0.5rem;
+  
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+.undernav {
+    padding-top: 100px;
+}

@@ -189,6 +189,10 @@ header>.container{
     font-size: 1.3rem;
 }
 
+#workinghour{
+    padding-bottom: 0 !important; 
+}
+
 #services{
     background-color:#F8F4EA;
 

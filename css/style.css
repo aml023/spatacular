@@ -124,6 +124,8 @@ header>.container{
         right:2rem;
     }
 
+    
+
     section {
         padding:50px 0;
       }
@@ -174,7 +176,7 @@ header>.container{
     box-sizing:border-box;
     padding:25px;
     margin:15px;
-    /*flex:1*/
+    flex:1;
 }
 
 #workinghour h3{

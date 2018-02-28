@@ -155,13 +155,12 @@ header>.container{
 }
 
 .container-fluid{
-    background-color: #F1D7BE;
+    background-color:rgb(240, 214, 166);
     padding:5rem 2rem;
     margin:auto;
 }
 
 .hour-box {
-
     margin: 50px auto;
     display:flex;
     flex-wrap:wrap;
@@ -172,12 +171,13 @@ header>.container{
     text-align:center;
     width:140px;
     height:180px;
-    border:2px solid #543D32;
+    border:2px solid #F8F4EA;
     box-sizing:border-box;
     padding:25px;
     margin:15px;
     flex:1;
 }
+
 
 #workinghour h3{
     font-family:sacramento;
@@ -189,3 +189,14 @@ header>.container{
     font-size: 1.3rem;
 }
 
+<<<<<<< HEAD
+=======
+#workinghour{
+    padding-bottom: 0 !important; 
+}
+
+#services{
+    background-color:#F8F4EA;
+
+}
+>>>>>>> origin/master

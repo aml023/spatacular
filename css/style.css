@@ -56,7 +56,7 @@ body{
 
 .nav-link{
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #543D32;
 }
 
@@ -70,7 +70,7 @@ nav a{
 }
 
 .navbar-brand{
-    font-size:2.5rem;
+    font-size:3rem;
     padding-top:0.5rem;
     padding-left:1rem ; 
 
@@ -123,6 +123,11 @@ header>.container{
     .navbar-toggler{
         right:2rem;
     }
+
+    section {
+        padding:50px 0;
+      }
+      
     
 }
 
@@ -145,4 +150,39 @@ header>.container{
 
 .undernav {
     padding-top: 100px;
+}
+
+.container-fluid{
+    background-color: #F1D7BE;
+    padding:5rem 2rem;
+    margin:auto;
+}
+
+.hour-box {
+
+    margin: 50px auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.hour-individual {
+    text-align:center;
+    width:140px;
+    height:180px;
+    border:2px solid #543D32;
+    box-sizing:border-box;
+    padding:25px;
+    margin:15px;
+    /*flex:1*/
+}
+
+#workinghour h3{
+    font-family:sacramento;
+    font-size: 2rem;
+    font-weight:900;
+}
+
+#workinghour h4{
+    font-size: 1.3rem;
 }

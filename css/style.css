@@ -6,7 +6,10 @@ body{
     width: 100%;
 }
 
-.img-logo
+.img-logo{
+    max-width: 15vw;
+    height: auto;
+}
 
 .category {
     border-radius: 20px;
@@ -75,7 +78,7 @@ nav a{
     font-size:3rem;
     padding-top:0.5rem;
     padding-left:1rem ; 
-
+    display: inline-block;
 }
 
 .navbar-toggler-icon {
@@ -169,7 +172,7 @@ header>.container{
 .border-between > [class*='col-']:first-child:before {
    display: none;
 }
-=======
+
 .container-fluid{
     background-color:rgb(240, 214, 166);
     padding:5rem 2rem;

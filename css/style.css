@@ -7,7 +7,7 @@ body{
 }
 
 .img-logo{
-    max-width: 15vw;
+    max-width:40vw;
     height: auto;
 }
 
@@ -93,7 +93,7 @@ body{
 }
 
 nav a{
-    color: #543D32;
+    color: rgb(82, 60, 49);
     font-family:'Sacramento', cursive;
 }
 
@@ -130,7 +130,7 @@ footer .content{
 
 
 header>.container{
-    padding:0rem 2rem;
+    padding:0rem 2rem 5rem;
     width:100vw;
     margin:auto;
     overflow:hidden;
@@ -149,19 +149,12 @@ header>.container{
 
     .navbar-brand{
         font-size:2rem;
-        margin-left: 1rem;
+        margin-left:0.2rem;
     }
 
     .navbar-toggler{
         right:2rem;
-    }
-
-    
-
-    section {
-        padding:50px 0;
-      }
-      
+    } 
     
 }
 
@@ -200,17 +193,31 @@ header>.container{
    display: none;
 }
 
-.container-fluid{
+#workinghour>.container-fluid{
     background-color:rgb(240, 214, 166);
-    padding:5rem 2rem;
+    padding:7rem 2rem 4rem;
     margin:auto;
 }
 
-.hour-box {
-    margin: 50px auto;
+#review>.container-fluid{
+    padding:6rem 2rem 4rem;
+    margin:auto;
+}
+
+#gallery>.container-fluid{
+    padding:6rem 2rem 4rem;
+    margin:auto;
+}
+
+.hour-box,#review-box,#gallery-box {
+    margin:3rem auto;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
+}
+#review-box {
+    margin: 1rem auto;
+    padding: 0 0 1rem;
 }
 
 .hour-individual {
@@ -225,21 +232,39 @@ header>.container{
 }
 
 
-#workinghour h3{
+#workinghour h2{
+    font-weight:400;
+}
+
+
+#workinghour h3, #review h3{
+
+    text-align:center;
     font-family:sacramento;
     font-size: 2rem;
     font-weight:900;
 }
 
-#workinghour h4{
+#workinghour h4, {
     font-size: 1.3rem;
 }
 
-#workinghour{
-    padding-bottom: 0 !important; 
-}
 
-#services{
+#review{
     background-color:#F8F4EA;
 
+}
+
+
+.review-individual {
+    text-align:center;
+    width:22rem;
+    height:20rem;
+    box-sizing:border-box;
+    padding:25px;
+}
+
+#review h4{
+    font-size: 1rem;
+    line-height: 1.5rem;
 }

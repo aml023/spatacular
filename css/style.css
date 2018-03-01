@@ -38,8 +38,22 @@ body{
 
 .top-left {
     position: absolute;
-    top: 8px;
-    left: 16px;
+    top: 25%;
+    left: 20%;
+    transform: translate(-25%, -20%);
+    color: #FFFFFF;
+    font-size: 2rem;
+    text-shadow: .5px .5px;
+}
+
+.top-left-mobile {
+    position: absolute;
+    top: 125px;
+    left: 80px;
+    transform: translate(-25%, -20%);
+    color: #FFFFFF;
+    font-size: 2rem;
+    text-shadow: .5px .5px;
 }
 
 #content-desktop {

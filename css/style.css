@@ -11,6 +11,13 @@ body{
     height: auto;
 }
 
+.anchor{
+  display: block;
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
+  visibility: hidden;
+}
+
 .category {
     border-radius: 20px;
 }
@@ -27,6 +34,12 @@ body{
     color: #FFFFFF;
     font-size: 1.5rem;
     text-shadow: .5px .5px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
 
 #content-desktop {
@@ -216,4 +229,3 @@ header>.container{
     background-color:#F8F4EA;
 
 }
-

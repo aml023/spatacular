@@ -3,25 +3,30 @@ body{
     text-align: center;
     color: #543D32;
     font-family: 'Quicksand', sans-serif;
+    width: 100%;
+}
+
+.img-logo{
+    max-width: 15vw;
+    height: auto;
 }
 
 .category {
     border-radius: 20px;
 }
 
-.category:hover {
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 0 10px #ccc;
-}
+/*.category:hover {
+    
+}*/
 
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #000000;
+    color: #FFFFFF;
     font-size: 1.5rem;
+    text-shadow: .5px .5px;
 }
 
 #content-desktop {
@@ -30,6 +35,10 @@ body{
 
 #content-mobile {
     display: none;
+}
+
+.image-text:hover {
+    opacity: 0.5;
 }
 
 @media only screen and (max-width: 810px){
@@ -52,7 +61,7 @@ body{
 
 .nav-link{
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #543D32;
 }
 
@@ -66,10 +75,10 @@ nav a{
 }
 
 .navbar-brand{
-    padding: 0;
-    font-size:2.5rem;
-    padding-top:0.5rem; 
-
+    font-size:3rem;
+    padding-top:0.5rem;
+    padding-left:1rem ; 
+    display: inline-block;
 }
 
 .navbar-toggler-icon {
@@ -78,7 +87,7 @@ nav a{
 
 .navbar-toggler{
     position:fixed;
-    right: 1rem;
+    right:4rem;
     top:1.5rem;
 }
 
@@ -92,6 +101,17 @@ footer .content{
     margin:2rem 1rem;
 }
 
+
+header>.container{
+    padding:0rem 2rem;
+    width:100vw;
+    margin:auto;
+    overflow:hidden;
+}
+
+
+
+
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 414px) {
     /* Styles */
@@ -104,5 +124,95 @@ footer .content{
         font-size:2rem;
         margin-left: 1rem;
     }
+
+    .navbar-toggler{
+        right:2rem;
+    }
+
     
+
+    section {
+        padding:50px 0;
+      }
+      
+    
+}
+
+@media (min-width: 1440px){
+    .container {
+        max-width: 1380px;
+    }
+}
+
+
+.text-in-box {
+    background-color: #EBEBEB;
+    color: #fff; 
+    display: inline;
+    padding: 0.5rem;
+  
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+.undernav {
+    padding-top: 100px;
+}
+
+.border-between > [class*='col-']:before {
+   background: #e3e3e3;
+   bottom: 0;
+   content: " ";
+   left: 0;
+   position: absolute;
+   width: 1px;
+   top: 0;
+}
+
+.border-between > [class*='col-']:first-child:before {
+   display: none;
+}
+
+.container-fluid{
+    background-color:rgb(240, 214, 166);
+    padding:5rem 2rem;
+    margin:auto;
+}
+
+.hour-box {
+    margin: 50px auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.hour-individual {
+    text-align:center;
+    width:140px;
+    height:180px;
+    border:2px solid #F8F4EA;
+    box-sizing:border-box;
+    padding:25px;
+    margin:15px;
+    flex:1;
+}
+
+
+#workinghour h3{
+    font-family:sacramento;
+    font-size: 2rem;
+    font-weight:900;
+}
+
+#workinghour h4{
+    font-size: 1.3rem;
+}
+
+#workinghour{
+    padding-bottom: 0 !important; 
+}
+
+#services{
+    background-color:#F8F4EA;
+
 }

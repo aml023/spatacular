@@ -309,7 +309,7 @@ header>.container.service{
     background-color:#F8F4EA;
     border:2px solid #F8F4EA;
     box-sizing:border-box;
-    padding:1.8rem;
+    padding:1.8rem 1.8rem 0rem 1.8rem;
     margin:1rem;
 }
 
@@ -383,4 +383,23 @@ a.active{
 
 a.nav-link.js-scroll-trigger.reserve:hover{
     color:#FFFFFF;
+}
+
+button.reserve{
+    background-color:transparent;
+    border-color:rgb(82, 60, 49);
+    color:rgb(238, 185, 85);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Helvetica;
+    display: inline-block;
+    font-size: 0.8rem;
+    margin: 1rem 0 0 0;
+}
+
+button.reserve:hover{
+    background-color:rgb(238, 185, 85);
+    color:#FFFFFF;
+    border: none;
 }

@@ -223,7 +223,7 @@ header>.container{
 }
 
 .service-category {
-    margin:0rem auto;
+    margin:0rem 5rem;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
@@ -288,15 +288,15 @@ header>.container{
 .service-type{
     padding:2rem 0;
     margin: 0;
+    display:block;
 }
 
 .services-individual {
-    text-align:center;
-    width:30rem;
+    text-align:left;
+    width:22rem;
     height:25rem;
     border:2px solid #F8F4EA;
     box-sizing:border-box;
-    padding:25px;
-    margin:15px;
-    flex:1;
+    padding:1.8rem;
+    margin:1rem;
 }

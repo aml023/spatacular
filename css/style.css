@@ -311,6 +311,7 @@ header>.container.service{
     box-sizing:border-box;
     padding:1.8rem 1.8rem 0rem 1.8rem;
     margin:1rem;
+    position: relative;
 }
 
 .services-individual>h3{
@@ -385,9 +386,17 @@ a.nav-link.js-scroll-trigger.reserve:hover{
     color:#FFFFFF;
 }
 
+.cta{
+    position: absolute;
+    display:inline-block;
+    bottom:4.2rem;
+    left: 2rem;
+}
+
 button.reserve{
+    position: absolute;
     background-color:transparent;
-    border-color:rgb(82, 60, 49);
+    border-color:rgba(82, 60, 49, 0.521);
     color:rgb(238, 185, 85);
     padding: 15px 32px;
     text-align: center;
@@ -395,7 +404,8 @@ button.reserve{
     font-family: Helvetica;
     display: inline-block;
     font-size: 0.8rem;
-    margin: 1rem 0 0 0;
+    letter-spacing: .05rem;
+    white-space: nowrap;
 }
 
 button.reserve:hover{

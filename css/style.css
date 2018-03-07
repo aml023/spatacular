@@ -11,6 +11,11 @@ body{
     height: auto;
 }
 
+
+.img-banner{
+    max-width:100%;
+    height: auto;
+}
 .anchor{
   display: block;
   height: 100px; /*same height as header*/
@@ -147,6 +152,16 @@ header>.container.service{
     padding:0rem 2rem 2rem;
 }
 
+.service-header>.container{
+    padding: 1rem 0rem;
+}
+
+.service-name-image{
+    display: flex;
+    margin: 0 4rem;
+}
+
+
 
 
 
@@ -177,6 +192,15 @@ header>.container.service{
     .navbar>.container, .navbar>.container-fluid{
         padding: 0;
     }
+
+    .service-name-image{
+        display:inline;
+    }
+
+    .h1-service{
+        display: block !important;
+    }
+
 
 }
 
@@ -315,13 +339,15 @@ header>.container.service{
 }
 
 
-.service-type{
+
+.h1-service{
     font-family:Helvetica;
     font-size:3rem;
     font-weight: 800;
-    padding:2rem 0 0rem;
-    margin: 0;
-    display:block;
+    padding:0 0 1rem 0;
+    margin:auto;
+    display:inline-block;
+    flex-grow:9;
 }
 
 .services-individual {
@@ -336,6 +362,7 @@ header>.container.service{
     margin:1rem;
     position: relative;
 }
+
 
 .services-individual>h3{
 
@@ -362,6 +389,7 @@ a.active{
     color: rgb(82, 60, 49);
     background-color: rgb(240, 214, 166);
     border-color: rgb(240, 214, 166);
+    margin: 1rem auto;
 }
 
 .btn-primary:hover{
@@ -371,24 +399,25 @@ a.active{
 }
 
 
+
  
- header h1 { 
+header h1 { 
     position: absolute; 
     top: 14rem; 
     right: 31rem; 
     width: 100%; 
- }
+}
 
- h1 span{ 
+h1 span{ 
     color: white; 
     font: bold 2rem quicksand; 
     letter-spacing: -1px;  
     background: rgb(0, 0, 0); /* fallback color */
     background: rgba(0, 0, 0, 0.7);
     padding: 10px; 
- }
+}
 
- .boxed{
+.boxed{
      display: inline-block;
      background: rgb(240, 214, 166);
      border-radius:1rem;
@@ -397,9 +426,9 @@ a.active{
      height: 4rem;
      margin-top:0.5rem; 
      margin-left:1rem;
- }
+}
 
- .nav-link.reserve {
+.nav-link.reserve {
     display: inline-block;
     box-sizing:content-box; 
     padding:0rem 1rem;

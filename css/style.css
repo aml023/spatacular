@@ -80,6 +80,8 @@ body{
 
 .navbar{
     line-height: 4rem;
+    background-color: rgba(255,255,255,0.965);
+    box-shadow: 0px 1px 20px -4px rgba(0,0,0,0.5);
 }
 
 .nav-item{
@@ -98,7 +100,8 @@ nav a{
 }
 
 .navbar>.container, .navbar>.container-fluid{
-    justify-content: stretch;
+    justify-content: space-between;
+    padding: 0 2rem;
 }
 
 .navbar-brand{
@@ -118,6 +121,10 @@ nav a{
     top:1.5rem;
 }
 
+.navbar-collapse{
+    justify-content: flex-end;
+
+}
 
 footer .content{
     font-size: 1rem;
@@ -186,6 +193,15 @@ header>.container.service{
 .undernav {
     padding-top: 100px;
 }
+
+
+
+
+.breadcrumb {
+    background-color:rgb(240, 214, 166);
+    font-size: 1rem;
+}
+
 
 .border-between > [class*='col-']:before {
    background: #e3e3e3;
@@ -368,11 +384,12 @@ a.active{
  .boxed{
      display: inline-block;
      background: rgb(240, 214, 166);
-     border-radius:2rem;
+     border-radius:1rem;
      box-sizing:content-box; 
      padding:0rem 1rem;
      height: 4rem;
      margin-top:0.5rem; 
+     margin-left:1rem;
  }
 
  .nav-link.reserve {

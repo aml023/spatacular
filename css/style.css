@@ -142,7 +142,7 @@ footer .content{
 
 
 header>.container{
-    padding:0rem 2rem 5rem;
+    padding:1rem 2rem 5rem;
     width:100vw;
     margin:auto;
     overflow:hidden;
@@ -158,10 +158,11 @@ header>.container.service{
 
 .service-name-image{
     display: flex;
-    margin: 0 4rem;
+    margin: 0 6rem;
 }
 
 
+.caro
 
 
 
@@ -257,6 +258,9 @@ header>.container.service{
 #review>.container-fluid{
     padding:6rem 2rem 4rem;
     margin:auto;
+
+    background-color:#F8F4EA;
+
 }
 
 
@@ -319,30 +323,25 @@ header>.container.service{
 }
 
 
-#review{
-    background-color:#F8F4EA;
-
-}
-
-
 .review-individual {
     text-align:center;
     width:22rem;
-    height:20rem;
+    height:38rem;
     box-sizing:border-box;
-    padding:25px;
+    padding:40px;
 }
 
 #review h4{
     font-size: 1rem;
     line-height: 1.5rem;
+    display: inline-block;
 }
 
 
 
 .h1-service{
     font-family:Helvetica;
-    font-size:3rem;
+    font-size:4rem;
     font-weight: 800;
     padding:0 0 1rem 0;
     margin:auto;
@@ -465,4 +464,14 @@ button.reserve:hover{
     background-color:rgb(238, 185, 85);
     color:#FFFFFF;
     border: none;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+
+.customer-image{
+    margin: 1rem;
+    display: inline-block;
+    width:15rem;
+}
+strong{
+    font-weight: 800;
+    color: rgb(238, 185, 85);
 }

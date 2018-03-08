@@ -162,15 +162,11 @@ header>.container.service{
 }
 
 
-.caro
-
-
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 414px) {
-    /* Styles */
+@media only screen and (max-width : 414px){
 
-    footer .content{
+    footer.content{
         padding:1rem 5rem;
     }
 
@@ -199,10 +195,8 @@ header>.container.service{
     }
 
     .h1-service{
-        display: block !important;
+        display:block !important;
     }
-
-
 }
 
 @media (min-width: 1440px){

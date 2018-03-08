@@ -183,7 +183,7 @@ header>.container.service{
     }
     
     header>.container{
-        padding:2rem 2rem 5rem;
+        padding:2rem 2rem 3rem;
     }
 
     .navbar>.container, .navbar>.container-fluid{
@@ -197,14 +197,100 @@ header>.container.service{
     .h1-service{
         display:block !important;
     }
+
+    .hour-individual{display: none;}
+
+    .hour-mobile{
+        display:inline-block;
+        text-align:center;
+        vertical-align: middle;
+        width:280px;
+        height:130px;
+        border:3px solid #F8F4EA;
+        box-sizing:border-box;
+        padding:25px;
+        margin:15px;
+    }
+
+    #workinghour>.container-fluid,#review>.container-fluid{
+        padding: 4rem 2rem 4rem !important;
+    }
+
+    .hour-box,#review-box,#gallery-box{
+        margin:1rem auto !important;
+    }
+    
+    h2{
+        font-size: 1.8rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    #workinghour h4{
+        font-size: 1.2rem;
+        padding: 0 0 0.2rem 0;
+    }
+
+    .review-individual {
+        padding:20px !important;
+    }
+
+    .service-header>.container{
+        display: none;
+    }
+
+    .h1-service{
+        font-size:2rem !important;
+        text-align: left !important;
+        margin-left:1rem !important; 
+
+    }
+
 }
 
+
+@media only screen and (min-width : 415px){
+    .hour-mobile{
+        display: none;
+    }
+}
 @media (min-width: 1440px){
     .container {
         max-width: 1380px;
     }
+
+
 }
 
+
+.dropdown{
+    text-align:center;
+    margin-left:1rem; 
+}
+
+
+.dropdown-menu{
+    min-width: 15rem;
+    box-shadow: 0px 1px 20px -4px rgba(0,0,0,0.5);
+}
+
+
+.dropdown-menu a{
+    margin: 1rem 0 0 1rem; 
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    cursor: pointer;
+}
+
+.dropdown-menu a:hover{
+    color: blue;
+    cursor: pointer;
+}
 
 .text-in-box {
     background-color: #EBEBEB;
@@ -291,12 +377,12 @@ header>.container.service{
     text-align:center;
     width:140px;
     height:180px;
-    border:2px solid #F8F4EA;
+    border:3px solid #F8F4EA;
     box-sizing:border-box;
     padding:25px;
     margin:15px;
-    flex:1;
 }
+
 
 
 #workinghour h2{
@@ -320,7 +406,7 @@ header>.container.service{
 .review-individual {
     text-align:center;
     width:22rem;
-    height:38rem;
+    height:33rem;
     box-sizing:border-box;
     padding:40px;
 }

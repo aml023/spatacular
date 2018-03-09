@@ -187,8 +187,8 @@ header>.container{
     
     header>.container{
 
-        padding:2rem 2rem 3rem;
-        /*padding:0rem;*/
+        /*padding:2rem 2rem 3rem;*/
+        padding:0rem;
     }
 
     .navbar>.container, .navbar>.container-fluid{
@@ -270,14 +270,22 @@ header>.container{
 }
 
 
+.justify-center{
+    justify-content: center;
+}
+
+.product-item{
+    height: 23rem;
+}
+
 .dropdown{
-    text-align:center;
+    text-align:left;
     margin-left:1rem; 
 }
 
 
 .dropdown-menu{
-    min-width: 15rem;
+    min-width: 18rem;
     box-shadow: 0px 1px 20px -4px rgba(0,0,0,0.5);
 }
 
@@ -313,10 +321,9 @@ header>.container{
 
 
 
-
 .breadcrumb {
-    background-color:rgb(240, 214, 166);
-    font-size: 1rem;
+    background-color:transparent;
+    font-size: 1.1rem;
     margin: 2rem 0rem 0rem;
 }
 
@@ -479,7 +486,7 @@ a.active{
 
 .btn-primary:hover{
     color: rgb(82, 60, 49);
-    background-color: rgb(238, 185, 85);
+    background-color:  rgb(240, 214, 166);
     border-color: rgb(240, 214, 166);
 }
 

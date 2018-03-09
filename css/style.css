@@ -154,8 +154,7 @@ header>.container{
 }
 
 .service-header>.container{
-    margin: 1rem auto;
-    height: 5rem;
+    margin: 1rem auto  0rem;
     padding: 0rem 2rem ;
     box-sizing: content-box;
 }
@@ -318,6 +317,7 @@ header>.container{
 .breadcrumb {
     background-color:rgb(240, 214, 166);
     font-size: 1rem;
+    margin: 2rem 0rem 0rem;
 }
 
 
@@ -351,7 +351,7 @@ header>.container{
 
 
 .service>.container-fluid {
-    padding:2rem 2rem 4rem;
+    padding:0rem 2rem 4rem;
     margin:auto;
 }
 

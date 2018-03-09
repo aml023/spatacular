@@ -148,10 +148,6 @@ header>.container{
     overflow:hidden;
 }
 
-header>.container.service{
-    padding:0rem 2rem 2rem;
-}
-
 .service-header>.container{
     padding: 1rem 0rem;
 }
@@ -183,7 +179,9 @@ header>.container.service{
     }
     
     header>.container{
-        padding:2rem 2rem 3rem;
+
+        /*padding:2rem 2rem 3rem;*/
+        padding:0rem;
     }
 
     .navbar>.container, .navbar>.container-fluid{

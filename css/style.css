@@ -581,11 +581,13 @@ strong{
     display: inline-block;
 }
 
+
+
 h3{
     font-size: 1.8rem;
 }
 
-h4{
+h6{
     font-size: 1rem;
     margin: 0.8rem 0;
 }

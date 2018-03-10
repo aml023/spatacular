@@ -16,6 +16,7 @@ body{
     max-width:100%;
     height: auto;
 }
+
 .anchor{
   display: block;
   height: 100px; /*same height as header*/
@@ -69,9 +70,6 @@ body{
     display: none;
 }
 
-.image-text:hover {
-    opacity: 0.5;
-}
 
 @media only screen and (max-width: 810px){
     #content-desktop {
@@ -142,7 +140,7 @@ footer .content{
 
 
 header>.container{
-    padding:1rem 2rem 5rem;
+    padding:2.2rem 2rem 2rem;
     width:100vw;
     margin:auto;
     overflow:hidden;
@@ -154,7 +152,7 @@ header>.container{
 }
 
 .service-header>.container{
-    margin: 1rem auto  0rem;
+    margin: 1rem auto 0rem;
     padding: 0rem 2rem ;
     box-sizing: content-box;
 }
@@ -186,9 +184,7 @@ header>.container{
     }
     
     header>.container{
-
-        /*padding:2rem 2rem 3rem;*/
-        padding:0rem;
+        padding: 0rem;
     }
 
     .navbar>.container, .navbar>.container-fluid{
@@ -230,8 +226,9 @@ header>.container{
     }
 
     h3{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
+
 
     #workinghour h4{
         font-size: 1.2rem;
@@ -253,6 +250,10 @@ header>.container{
 
     }
 
+
+    .services-individual {
+        width:22rem !important;
+    }
 }
 
 
@@ -359,7 +360,7 @@ header>.container{
 
 
 .service>.container-fluid {
-    padding:0rem 2rem 4rem;
+    padding:0rem 1rem 4rem;
     margin:auto;
 }
 
@@ -446,13 +447,13 @@ header>.container{
 .services-individual {
     font-family: Garamond;
     text-align:left;
-    width:18rem;
+    width:24rem;
     height:25rem;
     background-color:#F8F4EA;
     border:2px solid #F8F4EA;
     box-sizing:border-box;
     padding:1.8rem 1.8rem 0rem 1.8rem;
-    margin:1rem;
+    margin:1.5rem;
     position: relative;
 }
 
@@ -568,4 +569,23 @@ button.reserve:hover{
 strong{
     font-weight: 800;
     color: rgb(238, 185, 85);
+}
+
+.p-fix-banner{
+    padding: 0 30px;
+
+}
+
+.session{
+    width:6rem;
+    display: inline-block;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
+h4{
+    font-size: 1rem;
+    margin: 0.8rem 0;
 }

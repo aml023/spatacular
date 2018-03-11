@@ -115,13 +115,14 @@ nav a{
 }
 
 .navbar-toggler-icon {
-    background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=543D32');
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=543D32');
 }
 
 .navbar-toggler{
     position:fixed;
     right:4rem;
     top:1.5rem;
+    cursor: pointer;
 }
 
 .navbar-collapse{

@@ -130,6 +130,9 @@ nav a{
 
 }
 
+
+
+
 footer .content{
     font-size: 1rem;
     color: #ffffff;
@@ -168,6 +171,10 @@ header>.container{
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 414px){
+
+    .product-description{
+        padding:1rem !important
+    }
 
     footer.content{
         padding:1rem 5rem;
@@ -215,8 +222,8 @@ header>.container{
         margin:15px;
     }
 
-    #workinghour>.container-fluid,#review>.container-fluid{
-        padding: 4rem 2rem 4rem !important;
+    #workinghour>.container-fluid,#review>.container-fluid, #gallery>.container-fluid{
+        padding: 4rem 2rem 1rem !important;
     }
 
     .hour-box,#review-box,#gallery-box{
@@ -593,3 +600,4 @@ h6{
     font-size: 1rem;
     margin: 0.8rem 0;
 }
+

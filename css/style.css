@@ -678,3 +678,44 @@ h6{
 .card-body{
     padding-right: 20rem;
 }
+
+
+/* external css: flickity.css */
+
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 16rem;
+  height: 200px;
+  margin-right: 4rem;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+.carousel-cell.is-selected {
+  background: #ED2;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+
+.flickity-page-dots {
+    position: relative;
+    margin: 3rem auto;
+}
+
+.flickity-viewport {
+    padding: 2rem 0;
+
+}

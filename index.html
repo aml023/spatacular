@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand|Sacramento" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
@@ -180,12 +182,26 @@
           </section>
       
           <section id="gallery">
-            <div class="container-fluid">
+            <div class="container-fluid" style="padding-left:12rem; padding-right:10rem;">
                 <h2>Our Environment</h2>
                 <svg height="30" width="300">
                   <line x1="80" y1="20" x2="220" y2="20" style="stroke:rgb(82, 60, 49);stroke-width:4" />
                 </svg>
-      
+
+                <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+                    <div class="carousel-cell">
+                        <img class="sm-image" src="/images/gallery-1.jpg" class="hover-shadow cursor">
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="sm-image" src="/images/gallery-1.jpg"  class="hover-shadow cursor">
+                    </div>
+                    <div class="carousel-cell"></div>
+                    <div class="carousel-cell"></div>
+                    <div class="carousel-cell"></div>
+                    <div class="carousel-cell"></div>
+                    <div class="carousel-cell"></div>
+                    <div class="carousel-cell"></div>
+                  </div>
                 <!--
               <div class="row">
                 <div id="gallery-box">
@@ -290,9 +306,9 @@
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
 
-    <script src="js/myscript.js"></script>
-    <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow86.js"></script>
-    
+    <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow86.js"></script>    
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
 
   </body>
 

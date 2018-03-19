@@ -13,12 +13,6 @@
     ],
     "homepage": "https://startbootstrap.com/template-overviews/scrolling-nav",
     
-    "scripts": {
-        "start": "node index.js",
-        "test": "mocha",
-        "postinstall": "bower install && grunt build"
-    }
-    
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/issues",
         "email": "feedback@startbootstrap.com"
@@ -41,5 +35,5 @@
         "browser-sync": "2.23.6",
         "gulp": "^3.9.1"
     }
-
+    
 }

@@ -732,3 +732,9 @@ h6{
     height: 15rem !important;
 
 }
+
+.faq{
+    padding: 2rem 0;
+    font-weight: 800;
+    font-size: 3rem;
+}

@@ -3,6 +3,9 @@
     "name": "startbootstrap-scrolling-nav",
     "version": "4.0.0",
     "description": "A smooth scrolling navigation HTML template built with Bootstrap",
+    "scripts": {
+        "start": "node server.js"
+    },
     "keywords": [
         "css",
         "sass",
